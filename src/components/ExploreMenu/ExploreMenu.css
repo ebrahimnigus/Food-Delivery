@@ -20,3 +20,6 @@
     margin: 20px 0px;
     overflow-x: scroll;
 }
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
