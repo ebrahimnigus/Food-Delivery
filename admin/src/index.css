@@ -11,6 +11,7 @@ body {
   min-height: 100vh;
   background-color: #fcfcfc;
 }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -25,3 +26,6 @@ hr {
 .app-content {
   display: flex;
 }
+
+
+
