@@ -17,7 +17,7 @@ const Add = () => {
         setData(data=>({...data,[name]:value}))
     }
 
-
+    
   return (
     <div className='add'>
         <form className='flex-col'>
