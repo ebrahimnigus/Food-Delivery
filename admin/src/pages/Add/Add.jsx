@@ -20,7 +20,6 @@ const Add = () => {
         const value = event.target.value;
         setData(data=>({...data,[name]:value}))
     }
-
     const onSubmitHandler = async (event) => {
         event.preventDefault();
         const formData = new FormData();
@@ -29,7 +28,7 @@ const Add = () => {
         formData.append("price", Number(data.price))
         formData.append("category", data.category)
         formData.append("image", image)
-        const response = await axios.post(`${url}/api/food/add`,formData);
+        const response = await axios.post(`${url}/api/food/add`, formData);
         if (response.data.success) {
             setData({
                 name: "",
@@ -41,10 +40,9 @@ const Add = () => {
             toast.success(response.data.message)
         }
         else{
-
+            toast.error(response.data.message || "Something went wrong. Please try again.");
         }
     }
-    
   return (
     <div className='add'>
         <form className='flex-col' onSubmit={onSubmitHandler}>
@@ -79,7 +77,7 @@ const Add = () => {
                 </div>
                 <div className="add-price flex-col">
                     <p>Product price</p>
-                    <input onChange={onChangeHandler} value={data.price} type="Number" name='price' placeholder='$20'/>
+                    <input onChange={onChangeHandler} value={data.price} type="number" name='price' placeholder='$20'/>
                 </div>
             </div>
             <button type='submit' className='add-btn'>ADD</button>
