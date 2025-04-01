@@ -40,7 +40,7 @@ const Add = () => {
             toast.success(response.data.message)
         }
         else{
-            toast.error(response.data.message || "Something went wrong. Please try again.");
+            toast.error(response.data.message);
         }
     }
   return (
@@ -82,7 +82,6 @@ const Add = () => {
             </div>
             <button type='submit' className='add-btn'>ADD</button>
         </form>
-
     </div>
   )
 }
