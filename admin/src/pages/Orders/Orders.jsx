@@ -31,7 +31,6 @@ const Order = () => {
     }
   }
 
-
   useEffect(() => {
     fetchAllOrders();
   }, [])
