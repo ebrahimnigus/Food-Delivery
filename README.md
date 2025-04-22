@@ -2,11 +2,11 @@
 This is a full-stack food delivery website that allows users to browse restaurants, view menus, add items to their cart, and place orders. The project includes a frontend (user interface), backend (server and API), and database to store restaurant, menu, and order details.
 
 🔧 Tech Stack
-> Frontend: React, React Router, Redux (for state management)
-> Backend: Node.js, Express.js, JWT for authentication
-> Database: MongoDB (with Mongoose for object data modeling)
-> Payment Integration: Stripe (for handling online payments)
-> Authentication: JWT (JSON Web Tokens) for secure login
+Frontend: React, React Router, Redux (for state management)
+Backend: Node.js, Express.js, JWT for authentication
+Database: MongoDB (with Mongoose for object data modeling)
+Payment Integration: Stripe (for handling online payments)
+Authentication: JWT (JSON Web Tokens) for secure login
 
 🚀 Features
 User Features:
