@@ -39,11 +39,11 @@ Admin Features:
 
 ![maxresdefault (2)](https://github.com/user-attachments/assets/6a141900-e622-4d39-88e8-0cf942ca6eb2)
 
-Clone the repositiory
+Clone the repositiory:
 
-git clone https://github.com/yourusername/tomato-food-delivery.git
+> git clone https://github.com/yourusername/tomato-food-delivery.git
 
-cd Food-Delivery
+> cd Food-Delivery
 
 
 
