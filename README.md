@@ -41,7 +41,7 @@ Admin Features:
 
 Clone the repositiory:
 
-> git clone https://github.com/yourusername/tomato-food-delivery.git
+> git clone https://github.com/yourusername/Food-Delivery.git
 
 > cd Food-Delivery
 
