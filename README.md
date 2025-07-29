@@ -30,7 +30,7 @@ User Features:
 
 >  Order Tracking: Track your order's status from preparation to delivery.
 
-Admin Features:
+Admin Features :
 
 >  Restaurant Management: Admins can add, update, or remove restaurants and menu items directly from the admin dashboard.
 
