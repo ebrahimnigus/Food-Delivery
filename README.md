@@ -16,7 +16,7 @@ This is a full-stack food delivery website that allows users to browse restauran
 
 🚀 Features
 
-User Features:
+User Features :
 
 >  Browse Restaurants & Menus: Explore various local restaurants, filter them by category, cuisine, or rating, and view detailed menus.
 
